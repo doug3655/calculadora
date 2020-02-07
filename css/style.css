@@ -1,11 +1,40 @@
 .box{
     display: flex;
-    width: 100%;
+    justify-content: center;
+    width: 180px;
     background-color: blue;
+    padding-bottom: 1px;
 }
 .maxBox{
-    width: 1000px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-p{
-    background-color: black;
+.container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+}
+.boxVisor{
+    display: flex;
+    justify-content: space-around;
+}
+.boxImagem{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+#visor{
+    width: 130px;
+    height: 32px;
+    background-color: red;
+    color: seashell;
+    text-align: right;
 }
